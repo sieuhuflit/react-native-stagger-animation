@@ -5,8 +5,8 @@
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
   "types": "lib/typescript/src/index.d.ts",
-  "react-native": "src/index.tsx",
-  "source": "src/index.tsx",
+  "react-native": "src/index.js",
+  "source": "src/index.js",
   "files": [
     "src",
     "lib",
@@ -37,6 +37,10 @@
     "url": "https://github.com/sieuhuflit/react-native-stagger-animation/issues"
   },
   "homepage": "https://github.com/sieuhuflit/react-native-stagger-animation#readme",
+  "dependencies": {
+    "animated-pose": "^1.2.0",
+    "react-pose-core": "^0.5.0"
+  },
   "devDependencies": {
     "@commitlint/config-conventional": "^8.3.4",
     "@react-native-community/bob": "^0.14.1",
@@ -92,7 +96,10 @@
       ]
     }
   },
-  "eslintIgnore": ["node_modules/", "lib/"],
+  "eslintIgnore": [
+    "node_modules/",
+    "lib/"
+  ],
   "prettier": {
     "quoteProps": "consistent",
     "singleQuote": true,
@@ -120,6 +127,10 @@
   "@react-native-community/bob": {
     "source": "src",
     "output": "lib",
-    "targets": ["commonjs", "module", "typescript"]
+    "targets": [
+      "commonjs",
+      "module",
+      "typescript"
+    ]
   }
 }
