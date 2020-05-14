@@ -65,6 +65,14 @@ render() {
 
 Note : The `Transition` is using to pass any props stagger animation
 
+## ➤ Example
+
+- Check the example folder, then type to the terminal
+
+```bash
+expo start
+```
+
 ## ➤ Configuration
 
 | Property              |   Type   |  Default   | Description                             |
