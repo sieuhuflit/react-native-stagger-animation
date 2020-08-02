@@ -112,10 +112,6 @@ Transition type
 | duration        | function |   300   | Total duration of animation, in milliseconds. |
 | useNativeDriver | boolean  |  false  | Use native driver                             |
 
-## ➤ Author
-
-Sieu Thai, sieuhuflit@gmail.com
-
 ## ➤ License
 
-React Native Gradient Header Library is available under the MIT license. See the LICENSE file for more info.
+MIT
